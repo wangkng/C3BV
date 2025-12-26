@@ -1,0 +1,32 @@
+{
+    "n": 10,
+    "K": 1,
+    "eta_2": 0.1,
+    "cost_type": "deviation",
+    "cost_coe": null,
+    "data_source": "uni-TvN9-pure",
+    "user_normal": false,
+    "lambdas": "np.array([0, 0.01, 0.1, 1, 10, 100, 1e3])",
+    "sigma_noises": [
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5
+    ],
+    "experiment_type": "B-V tradeoff",
+    "attention": "log",
+    "tau": 0.05,
+    "dataset_dir": "embeddings_new1",
+    "mechanisms": [
+        "BRCM_star",
+        "M3_expo",
+        "M3_enga",
+        "M3_0"
+    ]
+}

@@ -1,0 +1,32 @@
+{
+    "n": 10,
+    "K": 5,
+    "eta_2": 0.1,
+    "cost_type": "deviation",
+    "cost_coe": null,
+    "data_source": "ml-100k",
+    "user_normal": false,
+    "lambdas": "np.round(np.linspace(0, 2, 11), 2)",
+    "sigma_noises": [
+        0.3,
+        0.3,
+        0.3,
+        0.3,
+        0.3,
+        0.3,
+        0.3,
+        0.3,
+        0.3,
+        0.3
+    ],
+    "experiment_type": "B-V tradeoff",
+    "attention": "log",
+    "tau": 0.05,
+    "dataset_dir": "embeddings_test",
+    "mechanisms": [
+        "BRCM_star",
+        "M3_expo",
+        "M3_enga",
+        "M3_0"
+    ]
+}
